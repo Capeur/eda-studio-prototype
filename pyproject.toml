@@ -1,0 +1,8 @@
+[project]
+name = "eda-studio-probe"
+version = "0.1.0"
+description = "Prototype EDA lab orchestrator agent (builder + verifier subagents) for Mistral Studio"
+requires-python = ">=3.12,<3.15"
+dependencies = [
+    "mistralai-agents[koyeb]>=1.1.2,<1.2",
+]
